@@ -14,3 +14,7 @@ The **FrontDesk** class delegates client requests to the appropriate service cla
 * **Cart** – A service class implementing the `HotelService` interface, responsible for handling luggage cart requests. It includes the `requestCart(numberOfCarts)` method.
 * **FrontDesk** – The **facade class** that coordinates interactions between the client (`HotelApp`) and the individual hotel services.
 * **HotelApp** – The **client class** that uses the `FrontDesk` facade to access and utilize hotel services seamlessly.
+
+
+# UML Class Diagram:
+![UML Class Diagram](https://github.com/eunicemabasa/Mabasa_FacadePatern_LabAss4/blob/main/Mabasa_UML_LabAss4.png)
